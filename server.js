@@ -7,7 +7,7 @@ const PORT = 8081;
 
 // App
 const app = express();
-app.get('/', function (req, res) {
+app.get('/hello_world/', function (req, res) {
   res.send('Hello world\n');
 });
 
